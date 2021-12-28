@@ -1,0 +1,13 @@
+__pycache__
+passwords.txt
+.idea
+venv
+API Keys.txt
+config.py
+token.txt
+properties.csv
+bootstrap
+css
+static
+0_Practice/SQL-practice/test.py
+.cache
