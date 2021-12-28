@@ -1,12 +1,7 @@
+# SpotifyTop100
+Gets Top 100 songs for a user-specified year-month-day, and builds a Spotify playlist.
 
+This python script prompts the user to input the YYYY-MM-DD that would be used to generate a billboard link (https://www.billboard.com/charts/hot-100/{YYYY-MM-DD}). This link will be used with GET method with requests module to retrieve the raw HTML. Latter, the BeautifulSoup module is used to scrape the artist name and song name that would be stored in a song dictionary.
 
-____    ____    _____   ______  ______   ____    __    __      ______  _____   ____       _     __      __     
-/\  _`\ /\  _`\ /\  __`\/\__  _\/\__  _\ /\  _`\ /\ \  /\ \    /\__  _\/\  __`\/\  _`\   /' \  /'__`\  /'__`\   
-\ \,\L\_\ \ \L\ \ \ \/\ \/_/\ \/\/_/\ \/ \ \ \L\_\ `\`\\/'/    \/_/\ \/\ \ \/\ \ \ \L\ \/\_, \/\ \/\ \/\ \/\ \  
- \/_\__ \\ \ ,__/\ \ \ \ \ \ \ \   \ \ \  \ \  _\/`\ `\ /'        \ \ \ \ \ \ \ \ \ ,__/\/_/\ \ \ \ \ \ \ \ \ \ 
-   /\ \L\ \ \ \/  \ \ \_\ \ \ \ \   \_\ \__\ \ \/   `\ \ \         \ \ \ \ \ \_\ \ \ \/    \ \ \ \ \_\ \ \ \_\ \
-   \ `\____\ \_\   \ \_____\ \ \_\  /\_____\\ \_\     \ \_\         \ \_\ \ \_____\ \_\     \ \_\ \____/\ \____/
-    \/_____/\/_/    \/_____/  \/_/  \/_____/ \/_/      \/_/          \/_/  \/_____/\/_/      \/_/\/___/  \/___/ 
-                                                                                                                
-                                                                                                                
+![Alt text](/images/Stage-1.jpg?raw=true "Step 1")
 
